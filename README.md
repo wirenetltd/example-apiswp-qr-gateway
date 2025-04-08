@@ -1,4 +1,4 @@
-## <div align="center">**LAZY GATEWAY - WALIX 3.x**</div>
+## <div align="center">**APISWP - QR GATEWAY**</div>
 #### <div align="center">- **REST API AND WEBHOOK** -</div>
 
 #### **# GIT CLONE :**

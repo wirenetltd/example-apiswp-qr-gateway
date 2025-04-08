@@ -5,16 +5,16 @@
 #### 1️⃣ **Clone the Repository**
 
 Clone the repository to get started with the APISWP QR Gateway project.
-bash
+```bash
 git clone https://github.com/wirenetltd/example-apiswp-qr-gateway.git
+```
 
-
-### **2️⃣ Example PHP Code**
-Explore the following PHP examples to send text or images using the API.**
+### **2️⃣ Example PHP Code**<br>
+Explore the following PHP examples to send text or images using the API.
 <br>
 
-**📱 Send Text Message - PHP Example**
-Here is an example of how to send a simple text message using the API.**
+**📱 Send Text Message - PHP Example**<br>
+Here is an example of how to send a simple text message using the API.
 ```php
 $body = array(
     "api_key" => "xxxxxxxxxxxx",
@@ -23,8 +23,8 @@ $body = array(
 );
 ```
 
-**🖼️ Send Image - PHP Example**
-Use the following example to send an image via the API.**
+**🖼️ Send Image - PHP Example**<br>
+Use the following example to send an image via the API.
 ```php
 $body = array(
     "api_key" => "b97b74f802c2802b94358267c160bbd282f5c384",
@@ -41,7 +41,7 @@ $body = array(
 💡 By:
 <a href="https://github.com/wirenetltd" target="_blank">WireNet Limited</a>
 
-✨ Features:
-🏅 REST API for seamless integration.
-🌍 Webhook Support to handle real-time updates.
-🔒 Secure Communication with API key validation.
+✨ Features:<br>
+🏅 REST API for seamless integration.<br>
+🌍 Webhook Support to handle real-time updates.<br>
+🔒 Secure Communication with API key validation.<br>

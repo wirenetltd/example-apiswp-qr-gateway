@@ -9,11 +9,11 @@ bash
 git clone https://github.com/wirenetltd/example-apiswp-qr-gateway.git
 
 
-### **2️⃣ Example PHP Code
+### **2️⃣ Example PHP Code**
 Explore the following PHP examples to send text or images using the API.**
 <br>
 
-**📱 Send Text Message - PHP Example
+**📱 Send Text Message - PHP Example**
 Here is an example of how to send a simple text message using the API.**
 php
 $body = array(
@@ -22,7 +22,7 @@ $body = array(
     "data" => array("message" => "Hello World")
 );
 
-**🖼️ Send Image - PHP Example
+**🖼️ Send Image - PHP Example**
 Use the following example to send an image via the API.**
 php
 $body = array(

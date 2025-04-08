@@ -1,34 +1,47 @@
-## <div align="center">**APISWP - QR GATEWAY**</div>
-#### <div align="center">- **REST API AND WEBHOOK** -</div>
+# <div align="center">**APISWP - QR GATEWAY**</div>
+## <div align="center">- **REST API AND WEBHOOK** -</div>
 
-#### **# GIT CLONE :**
+---
+
+### 🔥 **Quick Start Guide**
+
+#### 1️⃣ **Clone the Repository**
+
 ```bash
 git clone https://github.com/wirenetltd/example-apiswp-qr-gateway.git
-```
-
-### **# Example Body Array PHP**
-<br>
-
-**PHP Example Send Text :**
-```php
+2️⃣ Example PHP Code
+📱 Send Text Message - PHP Example
+php
+Kopyala
+Düzenle
 $body = array(
-    "api_key" => "xxxxxxxxxxxx",
-    "receiver" => "44xxxxxxxxxx",
-    "data" => array("message" => "Hello World")
+    "api_key" => "xxxxxxxxxxxx", // Your API key
+    "receiver" => "44xxxxxxxxxx", // Recipient phone number
+    "data" => array("message" => "Hello World") // The message content
 );
-```
-**PHP Example Send Image :**
-```php
+🖼️ Send Image - PHP Example
+php
+Kopyala
+Düzenle
 $body = array(
-    "api_key" => "b97b74f802c2802b94358267c160bbd282f5c384",
-    "receiver" => "44xxxxxxxxxx",
+    "api_key" => "b97b74f802c2802b94358267c160bbd282f5c384", // Your API key
+    "receiver" => "44xxxxxxxxxx", // Recipient phone number
     "data" => array(
-        "url" => "https://i.ibb.co/QbmsBqs/code.png",
-        "media_type" => "image",
-        "caption" => "Hello World"
+        "url" => "https://i.ibb.co/QbmsBqs/code.png", // URL of the image
+        "media_type" => "image", // Media type (image)
+        "caption" => "Hello World" // Caption for the image
     )
 );
-```
+💡 By:
+<a href="https://github.com/wirenetltd" target="_blank">WireNet Limited</a>
 
-#### **By :**
-- <a href="https://github.com/wirenetltd">**WireNet Limited** </a>
+✨ Features:
+🏅 REST API for seamless integration.
+
+🌍 Webhook Support to handle real-time updates.
+
+🔒 Secure Communication with API key validation.
+
+Contact & Support:
+For questions or further support, visit WireNet Limited GitHub.
+

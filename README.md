@@ -15,25 +15,27 @@ Explore the following PHP examples to send text or images using the API.**
 
 **📱 Send Text Message - PHP Example**
 Here is an example of how to send a simple text message using the API.**
-php
+```php
 $body = array(
     "api_key" => "xxxxxxxxxxxx",
-    "receiver" => "44xxxxxxxxxx",
+    "receiver" => "6285xxx",
     "data" => array("message" => "Hello World")
 );
+```
 
 **🖼️ Send Image - PHP Example**
 Use the following example to send an image via the API.**
-php
+```php
 $body = array(
     "api_key" => "b97b74f802c2802b94358267c160bbd282f5c384",
-    "receiver" => "44xxxxxxxxxx",
+    "receiver" => "6285xxx",
     "data" => array(
         "url" => "https://i.ibb.co/QbmsBqs/code.png",
         "media_type" => "image",
         "caption" => "Hello World"
     )
 );
+```
 
 
 💡 By:
